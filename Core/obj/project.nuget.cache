@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "0VBHv1FBpAE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\TaskManagement\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\ardalis.sharedkernel\\5.0.0\\ardalis.sharedkernel.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\ardalis.specification\\9.3.1\\ardalis.specification.9.3.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mediator.abstractions\\3.0.1\\mediator.abstractions.3.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\vogen\\8.0.7\\vogen.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
