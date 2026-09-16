@@ -1,4 +1,5 @@
 ﻿using Ardalis.SharedKernel;
+using Core.Events;
 
 namespace Core.ProjectAggregate;
 
@@ -11,7 +12,13 @@ public class Project(ProjectName name) : EntityBase<Project, ProjectId>, IAggreg
     {
         if (newName == Name) return this;
         Name = newName;
-        //RegisterDomainEvent(new )
+        RegisterDomainEvent(new ProjectNameUpdatedEvent(this));
+        return this;
+    }
+    public Project UpdateDescription(ProjectDescription newDescription)
+    {
+        if (newDescription == Description) return this;
+        Description = newDescription;
         return this;
     }
 }
