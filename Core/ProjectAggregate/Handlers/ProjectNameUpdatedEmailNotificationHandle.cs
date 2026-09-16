@@ -1,5 +1,5 @@
-﻿using Core.ProjectAggregate.Events;
-using Core.ProjectAggregate.Interfaces;
+﻿using Core.Interfaces;
+using Core.ProjectAggregate.Events;
 using Mediator;
 using Microsoft.Extensions.Logging;
 

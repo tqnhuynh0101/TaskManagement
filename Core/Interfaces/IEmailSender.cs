@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.ProjectAggregate.Interfaces;
+namespace Core.Interfaces;
 
 public interface IEmailSender
 {

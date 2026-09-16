@@ -1,5 +1,5 @@
 ﻿using Ardalis.SharedKernel;
-using Core.Events;
+using Core.ProjectAggregate.Events;
 
 namespace Core.ProjectAggregate;
 
