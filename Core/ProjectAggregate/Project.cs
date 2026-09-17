@@ -3,10 +3,10 @@ using Core.ProjectAggregate.Events;
 
 namespace Core.ProjectAggregate;
 
-public class Project(ProjectName name) : EntityBase<Project, ProjectId>, IAggregateRoot
+public class Project(ProjectName name, ProjectDescription description) : EntityBase<Project, ProjectId>, IAggregateRoot
 {
     public ProjectName Name { get; private set; } = name;
-    public ProjectDescription Description { get; private set; }
+    public ProjectDescription Description { get; private set; } = description;
 
     public Project UpdateName(ProjectName newName)
     {
